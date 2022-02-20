@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./imagens/planets.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-section {
+  text-align: center;
+  background-color: whitesmoke;
+  margin-left: 70%;
+  width: 30%;
+  height: 95vh;
+}
+/* Sign Up */
+.mainTittle {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+/* First Name */
+.divFirstName {
+  padding-top: 20px;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+/* Last Name */
+.divLastName {
+  padding-top: 40px;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+/* Email */
+.divEmail {
+  padding-top: 40px;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+/* Password */
+.divPassword {
+  padding-top: 40px;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+/*  Gender */
+.genderText {
+  font-size: 22px;
+  padding-top: 30px;
+  padding-right: 260px;
+}
+.divGender {
+  width: 0%;
+  margin-left: 120px;
+}
+/*  Terms of User */
+.termsOfUser {
+  width: 60%;
+  margin-left: 120px;
+  padding-top: 30px;
+}
+.termsText {
+  padding-right: 32px;
+}
+.divButton {
+  padding-top: 60px;
+}
+/*  Footer */
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.madeByMe {
+  color: white;
+  margin-right: 10px;
+}
+/* Error Message */
+.errorMessage {
+  color: red;
+  font-size: 20px;
+}
+.cadastroConcluido {
+  color: green;
+  font-size: 20px;
+}
