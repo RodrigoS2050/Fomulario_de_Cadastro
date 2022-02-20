@@ -26,7 +26,7 @@ signInButton.addEventListener("click", function(event){
     if(nameValue == "" || lastValue == "" || emailValue == "" || passwordValue == "" || maleValue == false && femaleValue == false && otherValue == false || termsValue == false){
         errorMessage.textContent = "Por favor preencha todos os campos"
     } else {
-        cadastroConcluido.textContent = "Cadastro Concluido"
+        cadastroConcluido.textContent = "Cadastro Concluído"
     }
     setTimeout(() => {
         errorMessage.textContent = ""

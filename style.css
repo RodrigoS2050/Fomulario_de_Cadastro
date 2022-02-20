@@ -6,6 +6,7 @@ body {
   background-image: url(./imagens/planets.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 .main-section {
   text-align: center;
