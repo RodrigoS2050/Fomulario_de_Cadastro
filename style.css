@@ -1,23 +1,41 @@
 * {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 body {
-  background-image: url(./imagens/planets.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black !important;
   height: 100vh;
 }
-.main-section {
-  text-align: center;
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-areas:
+    "box-1 box-1 box-1 box-1 box-1 box-1 box-2"
+    "box-1 box-1 box-1 box-1 box-1 box-1 box-2"
+    "box-3 box-3 box-3 box-3 box-3 box-3 box-3";
+}
+.box-1 {
+  grid-area: box-1;
+  background-image: url(./imagens/planets.jpg);
+}
+.box-2 {
   background-color: whitesmoke;
-  margin-left: 70%;
-  width: 30%;
-  height: 95vh;
+  grid-area: box-2;
+  height: 900px;
+}
+.box-3 {
+  background-color: black;
+  color: white;
+  grid-area: box-3;
+}
+/* Formulario */
+.main-section {
+  background-color: whitesmoke;
 }
 /* Sign Up */
 .mainTittle {
-  padding-top: 70px;
+  text-align: center;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 /* First Name */
@@ -48,29 +66,23 @@ body {
 .genderText {
   font-size: 22px;
   padding-top: 30px;
-  padding-right: 260px;
 }
 .divGender {
-  width: 0%;
-  margin-left: 120px;
+  margin-left: 21%;
 }
 /*  Terms of User */
 .termsOfUser {
-  width: 60%;
-  margin-left: 120px;
+  margin-left: 21%;
   padding-top: 30px;
 }
-.termsText {
-  padding-right: 32px;
-}
 .divButton {
+  text-align: center;
   padding-top: 60px;
 }
 /*  Footer */
 .footer {
   background-color: black;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   padding: 10px;
 }
@@ -80,10 +92,12 @@ body {
 }
 /* Error Message */
 .errorMessage {
+  text-align: center;
   color: red;
   font-size: 20px;
 }
 .cadastroConcluido {
+  text-align: center;
   color: green;
   font-size: 20px;
 }
